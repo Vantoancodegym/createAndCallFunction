@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create and call function</title>
+</head>
+<body>
+<script>
+    function proccesComfirm(answer){
+        let result ='';
+        if (answer){
+            result = " welcome";
+        }else {
+            return result="goobye";
+        }
+        return result;
+    }
+    let comfirmAnswer = confirm("ok or cancle");
+    let theAnswer = proccesComfirm(comfirmAnswer);
+    alert(theAnswer)
+
+</script>
+</body>
+</html>
